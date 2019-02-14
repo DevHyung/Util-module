@@ -9,7 +9,7 @@
 - 카카오톡 봇 
 
 ## 테스트
-<details><summary> 자세히 </summary>
+<details><summary> 오오 신기방기 </summary>
 <p>
   [190103] ELMO: Deep contextualized word representations - NACLL 2018 <br>
   [190113] Trnasformer: Attention is all you need - NIPS 2017 <br>
