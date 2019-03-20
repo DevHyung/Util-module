@@ -5,7 +5,7 @@
 import requests
 import json
 # == CONFIG 
-TOKEN = '633121988:AAGZkznZv7Gt4aRvGpOS3Eod8cuMj2G6GSg' 
+TOKEN = 'YOUR_TOKEN' 
 Bot_URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 html = requests.get(Bot_URL+'getUpdates')
