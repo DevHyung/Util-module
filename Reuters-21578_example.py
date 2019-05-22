@@ -33,9 +33,14 @@ def get_article_by_bs4() -> None:
         bs = BeautifulSoup(content, 'lxml')
         reuters: List[bs4.element.Tag]  = bs.find_all('reuters')
         for article in reuters:
+            '''
+                여기서 추가적으로 고려할껀 evalute 할 dataset (train, test 용으로 나눌)
+                것 modApte 셋이므로 추가를 할 때 filtering 코드를 추가하셔야합니다.  
+            '''
             newId: str = article['newid']
             oldId: str = article['oldid']
             textTag = article.find('text')
+
             try:
                 title: str = textTag.find('title').get_text().strip()
             except AttributeError: # no title content
