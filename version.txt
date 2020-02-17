@@ -2,3 +2,4 @@
 [C-ip]:61.84.21.128
 [D-version]:1.0
 [I-version]:1.0
+[DAUM-version]:1.0
