@@ -4,5 +4,5 @@
 [I-version]:1.0
 [DAUM-version]:1.0
 [N-version]:1.0
-[URL-version]:1.0
+[URL-version]:1.1
 [URL-init]:https://blog.naver.com/hungjoonpar
